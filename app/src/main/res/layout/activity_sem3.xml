@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sem3Activity">
+
+    <Button
+        android:id="@+id/EM3Button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:onClick="EM3"
+        android:padding="10dp"
+        android:text="Engineering Mathematics III"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/DSGTButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="dsgt"
+        android:padding="10dp"
+        android:text="DSGT"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EM3Button" />
+
+    <Button
+        android:id="@+id/DSButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="ds"
+        android:padding="10dp"
+        android:text="Data Structures"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DSGTButton" />
+
+    <Button
+        android:id="@+id/DLCOAButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="dlcoa"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:text="DLCOA"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DSButton" />
+
+    <Button
+        android:id="@+id/CGButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="cg"
+        android:padding="10dp"
+        android:text="Computer Graphics"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DLCOAButton" />
+
+    <Button
+        android:id="@+id/OOPMButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="oopm"
+        android:padding="10dp"
+        android:text="OOPM"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CGButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
